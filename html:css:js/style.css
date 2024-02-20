@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MartianMono-c;
+    src: url(..//fonts/Martian_Mono/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 26px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.header {
+    background-image: url( /img/bromo-white.jpeg);
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 60px;
+    margin-bottom: 149px;
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.header__info-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header__info-right a {
+    width: 78px;
+    height: 75px;
+    border: 1.5px solid #fff;
+    padding: 11px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.header__info-right a:hover {
+    color: #aa9595;
+    background: #fff;
+    border-color: #aa9595;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.menu__list a {
+    position: relative;
+    margin-right: 50px;
+    font-size: 13px;
+    left: 40px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.menu__list a:hover {
+    color: #aa9595;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.header__text {
+    margin-bottom: 85px;
+}
+
+.header__text-name {
+    max-width: 702px;
+    font-size: 40px;
+}
+
+.header__button a {
+    width: 170px;
+    height: 40px;
+    color: #aa9595;
+    background-color: #fff;
+    border: 1.5px solid #fff;
+    padding: 6px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.header__button a:hover {
+    color: #fff;
+    background: #aa9595;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+
+.container__footer {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 132px;
+}
+.contact__info-left span {
+    font-size: 10px;
+}
+
+.contact__info-left {
+    margin-left: 20px;
+    max-width: 900px;
+}
+
+
+.contact__info-right {
+    max-width: 3px;
+    position: relative;
+    top: -60px;
+}
+
+
+
+
+

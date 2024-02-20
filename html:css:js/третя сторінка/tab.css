@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+@font-face {
+    font-family: MartianMono-c;
+    src: url(..//fonts/Martian_Mono/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.background {
+    height: 100vh;
+    background-image: url(/img/bromo-green.jpeg);
+    background-size: cover;
+    filter: grayscale(0.7);
+
+}
+
+.free_filter {
+    position: relative;
+    top: -380px;
+    left: 580px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 4px ;
+}
+
+.mountain1 {
+    position: relative;
+    display: flex;
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: rgba(192, 192, 192, .8);
+    top: -450px;
+    left: 640px;
+    color: #fff;
+    max-width: 120px;
+    border: 1.5px solid #fff;
+    border-radius: 20px;
+}
